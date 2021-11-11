@@ -14,27 +14,27 @@ public class StudentService {
 private StudentRepository studentRepository;
 
 
-	public List<Student> getAllEmployees() {
+	public List<Student> getAllStudents() {
 		// TODO Auto-generated method stub
 		return studentRepository.findAll();
 	}
 
-	public Student getEmployeeById(Long id) {
+	public Student getStudentsById(Long id) {
 		// TODO Auto-generated method stub
 		return studentRepository.findById(id).get();
 	}
 
-	public Student saveEmployeeDetails(Student student) {
+	public Student saveStudentDetails(Student student) {
 		// TODO Auto-generated method stub
 		return studentRepository.save(student);
 	}
 
-	public Student updateEmployee(Student student) {
+	public Student updateStudent(Student student) {
 		// TODO Auto-generated method stub
 		return studentRepository.save(student);
 	}
 
-	public void deleteEmployeeById(Long id) {
+	public void deleteStudentById(Long id) {
 		// TODO Auto-generated method stub
 		studentRepository.deleteById(id);
 	}

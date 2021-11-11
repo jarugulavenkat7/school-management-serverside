@@ -31,29 +31,28 @@ public class StudentController {
 	}
 	
 	@GetMapping("/students")
-	public List<Student> getAllEmployees() {
-		return studentService.getAllEmployees();
+	public List<Student> getAllStudents() {
+		return studentService.getAllStudents();
 	}
-	
 	@GetMapping("/students/{id}")
-	public Student getEmployeeById(@PathVariable Long id) {
-		return studentService.getEmployeeById(id);
+	public Student getStudentsById(@PathVariable Long id) {
+		return studentService.getStudentsById(id);
 	}
 	
 	@PostMapping("/students")
-	public Student saveEmployeeDetails(@RequestBody Student student) {
-		return studentService.saveEmployeeDetails(student);
+	public Student saveStudentDetails(@RequestBody Student student) {
+		return studentService.saveStudentDetails(student);
 	}
 	
-	@PutMapping("/students")
-	public Student updateEmployee(@RequestBody Student student) {
-		return studentService.updateEmployee(student);
+	@PutMapping("/students/{id}")
+	public Student updateStudent(@RequestBody Student student) {
+		return studentService.updateStudent(student);
 	}
 	
 	@DeleteMapping("/students/{id}")
-	public ResponseEntity<HttpStatus> deleteEmployeeById(@PathVariable Long id) {
-		studentService.deleteEmployeeById(id);
-		return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+	public String deleteStudentById(@PathVariable Long id) {
+		studentService.deleteStudentById(id);
+		return "Student record with id "+id+" deleted successfully";
 	}
 
 }
