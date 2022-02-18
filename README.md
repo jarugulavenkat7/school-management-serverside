@@ -1,0 +1,2 @@
+# school-management-serverside
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d511f2424f5d4117a07d06bf0197fa5b)](https://app.codacy.com/gh/jarugulavenkat7/school-management-serverside?utm_source=github.com&utm_medium=referral&utm_content=jarugulavenkat7/school-management-serverside&utm_campaign=Badge_Grade_Settings)
