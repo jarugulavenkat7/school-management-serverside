@@ -3,3 +3,11 @@
 
 
 [![Known Vulnerabilities](https://snyk.io/test/github/{jarugulavenkat7}/{school-management-serverside}/badge.svg)](https://snyk.io/test/github/{jarugulavenkat7}/{school-management-serverside})
+
+
+### Spring Actuator
+[https://school-management-serverside.herokuapp.com/actuator](https://school-management-serverside.herokuapp.com/actuator)
+### Open Api and Swagger
+[https://school-management-serverside.herokuapp.com/v3/api-docs](https://school-management-serverside.herokuapp.com/v3/api-docs) <br>
+[https://school-management-serverside.herokuapp.com/swagger-ui/index.html](https://school-management-serverside.herokuapp.com/swagger-ui/index.html) <br>
+https://school-management-serverside.herokuapp.com/
