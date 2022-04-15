@@ -10,4 +10,4 @@
 ### Open Api and Swagger
 [https://school-management-serverside.herokuapp.com/v3/api-docs](https://school-management-serverside.herokuapp.com/v3/api-docs) <br>
 [https://school-management-serverside.herokuapp.com/swagger-ui/index.html](https://school-management-serverside.herokuapp.com/swagger-ui/index.html) <br>
-https://school-management-serverside.herokuapp.com/
+
