@@ -11,3 +11,7 @@
 [https://school-management-serverside.herokuapp.com/v3/api-docs](https://school-management-serverside.herokuapp.com/v3/api-docs) <br>
 [https://school-management-serverside.herokuapp.com/swagger-ui/index.html](https://school-management-serverside.herokuapp.com/swagger-ui/index.html) <br>
 
+### Hal Explorer
+
+[https://school-management-serverside.herokuapp.com/](https://school-management-serverside.herokuapp.com/)
+
